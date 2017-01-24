@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body{
+	font-family: "游ゴシック";
+	font-size: 20px;
+	font-weight: bold;
+}
+
+header,
+footer{
+	border: 3px solid;
+	padding: 1em;
+	
+}
+
+header,
+main,
+footer{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+
+h1{
+	border-bottom: 3px solid;
+}
+
+p{
+	border: 1px dotted #ccc;
+	padding: 1em;
+}
